@@ -145,11 +145,6 @@ main	{
 	padding: 10px;
 }
 
-.section-1 div:nth-child(odd) h2	{
-	color: #fff;
-	text-shadow: -1px 2px 1px #000;
-}
-
 .section-1 div:nth-child(even)	{
 	background: rgba(0, 0, 0, .78);
 	color: #fff;
@@ -184,7 +179,9 @@ main	{
 .aims li	{
 	flex: 1 200px;
 	width: 100%;
-	margin: 10px 15px;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: justify;
 }
 
 .aims li img	{
@@ -233,6 +230,7 @@ main	{
 	padding: 0;
 	position: relative;
 	width: 100%;
+	max-width: 800px;
 	display: flex;
 }
 
@@ -261,6 +259,7 @@ main	{
 	flex: 1;
 	padding: 15px;
 	margin: 0 auto;
+	text-align: justify;
 }
 
 .two	{
