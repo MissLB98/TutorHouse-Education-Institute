@@ -139,7 +139,7 @@ main	{
 }
 
 .section-1 div:nth-child(odd)	{
-	background: rgba(255,215,0, .6);
+	/*background: rgba(255,215,0, .6);*/
 	width: 100%;
 	margin: 0 auto;
 	padding: 10px;
@@ -165,6 +165,34 @@ main	{
 .section-2 h2	{
 	margin: 0 auto;
 	padding: 20px 0;
+}
+
+
+/*AIMS*/
+
+.aims	{
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.aims li	{
+	flex: 1 200px;
+	width: 100%;
+	margin: 10px 15px;
+}
+
+.aims li img	{
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 
@@ -337,9 +365,9 @@ footer	{
 }
 
 @media (min-width: 1024px)	{
-	.p-lo	{
+	/*.p-lo	{
 		display: flex;
 		align-items: stretch;
-	}
+	}*/
 }
 
