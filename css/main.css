@@ -55,10 +55,10 @@ header	{
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	background-image: url("../img/background.jpg");
-	/*background-image: linear-gradient(to top, rgba(000, 120, 230, .6), rgba(180, 200, 255, .4));*/
+	background-image:linear-gradient(to top, #000, transparent), url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 70%;
 }
 
 header div	{
