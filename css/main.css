@@ -235,13 +235,22 @@ main	{
 }
 
 .subjects-container	{
-	list-style: square;
+	/*list-style: square;*/
+	list-style: none;
 	margin: 0 auto;
 	padding-left: 23px;
 }
 
 .subjects-container li	{
 	margin: 5px auto;
+}
+
+.subjects-container li:nth-child(odd)	{
+	background: #eee;
+}
+
+.subjects-container li:nth-child(even)	{
+	background: #ccc;
 }
 
 
