@@ -58,7 +58,7 @@ header	{
 	background-image:linear-gradient(to top, #000, transparent), url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 70%;
+	background-position: 70% 50%;
 }
 
 header div	{
@@ -73,11 +73,10 @@ header div	{
 }
 
 #menu 	{
-	background: rgba(1, 42, 31, .4);
+	background: rgba(80, 42, 31, .4);
 	display: flex;
 	justify-content: center;
 	list-style: none;
-	padding: 10px;
 	z-index: 100;
 }
 
@@ -93,7 +92,7 @@ header div	{
 
 #menu a li	{
 	margin: auto;
-	padding: 8px 13px;
+	padding: 18px 23px;
 	display: block;
 	color: #fff;
 	text-transform: uppercase;
@@ -275,21 +274,24 @@ main	{
 	padding: 15px;
 	margin: 0 auto;
 	text-align: justify;
+	color: #fff;
 }
 
 .two	{
-	background: rgba(255,215,0, .6);
-}
-
-.two h2	{
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
+	background: rgba(0, 0, 0, .78);;
 }
 
 .one,
 .three	{
 	background: rgba(000,50,126, 1);
-	color: #fff;
+}
+
+.front img	{
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	display: block;
 }
 
 
