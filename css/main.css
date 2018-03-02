@@ -55,7 +55,7 @@ header	{
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	background-image:linear-gradient(to top, #000, transparent), url("../img/background.jpg");
+	background-image: linear-gradient(to top, #000, transparent), url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 70% 50%;
@@ -72,7 +72,7 @@ header div	{
 	justify-content: space-between;
 }
 
-#menu 	{
+ul#menu 	{
 	background: rgba(80, 42, 31, .6);
 	display: flex;
 	justify-content: center;
@@ -136,6 +136,7 @@ main	{
 	position: relative;
 	width: 100%;
 	padding: 0;
+	border-bottom: 2px solid #eef;
 }
 
 .section-1 div:nth-child(odd)	{
@@ -340,9 +341,10 @@ main	{
 /*FOOTER*/
 
 footer	{
+	position: relative;
 	text-align: center;
 	padding: 10px;
-	margin: 0 auto;
+	margin: 30px auto 0 auto;
 	position: relative;
 	width: 100%;
 	max-width: 800px;
